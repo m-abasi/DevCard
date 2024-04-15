@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <title>DevCard از مهدی عباسی</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DevCard Bootstrap 4 Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <script defer src="~/assets/fontawesome/js/all.js"></script>
+    <link  rel="stylesheet" href="~/assets/css/theme-1.css">
+    <link  rel="stylesheet" href="~/assets/css/style.css">
+</head>
+<body>
+
+<partial name="Header"/>
+
+<div class="main-wrapper">
+    @RenderBody()
+    <partial name = "Footer" />
+
+</div>
+
+<script src="~/assets/plugins/jquery-3.4.1.min.js"></script>
+<script src="~/assets/plugins/popper.min.js"></script>
+<script src="~/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</body>
+
+</html>
